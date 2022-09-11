@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/landing-on-three/static/css/main.2d06dc1f.css",
+    "main.js": "/landing-on-three/static/js/main.7639e54c.js",
+    "static/media/basecolor.jpg": "/landing-on-three/static/media/basecolor.e2fa9982a57929f1b5d3.jpg",
+    "static/media/ambientOcclusion.jpg": "/landing-on-three/static/media/ambientOcclusion.03c5afbfdac3e042895a.jpg",
+    "static/media/normal.jpg": "/landing-on-three/static/media/normal.5f1736d7751493274d0e.jpg",
+    "index.html": "/landing-on-three/index.html",
+    "main.2d06dc1f.css.map": "/landing-on-three/static/css/main.2d06dc1f.css.map",
+    "main.7639e54c.js.map": "/landing-on-three/static/js/main.7639e54c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d06dc1f.css",
+    "static/js/main.7639e54c.js"
+  ]
+}
