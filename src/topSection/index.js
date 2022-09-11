@@ -57,7 +57,7 @@ export function TopSection() {
     <TopSectionContainer>
       <Name>Himandri Sharma</Name>
       <Paragraph>Hey, welcome to my first ever threeJS project. <br/>This is a confetti planet!</Paragraph>
-      <DonateButton>Know more about me</DonateButton>
+      <a href="http://himandrisharma.tk/"><DonateButton>Know more about me</DonateButton></a>
     </TopSectionContainer>
   );
 }

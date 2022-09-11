@@ -6,7 +6,7 @@ import Normal from "../../assets/normal.jpg";
 import Specular from "../../assets/ambientOcclusion.jpg";
 import { Stars } from "@react-three/drei";
 
-function Sphere(props) {
+function Sphere() {
 	const [colorMap, specularMap, normalMap] = useLoader(TextureLoader, [
 		BaseMap,
 		Specular,
@@ -38,14 +38,6 @@ function Sphere(props) {
 					metalness={1}
 					roughness={0.5}
 				/>
-				{/* <OrbitControls
-					enableZoom={true}
-					enablePan={true}
-					enableRotate={true}
-					zoomSpeed={0.6}
-					panSpeed={0.5}
-					rotateSpeed={0.4}
-				/> */}
 			</mesh>
 		</>
 	);
