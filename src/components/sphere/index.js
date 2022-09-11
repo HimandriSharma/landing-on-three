@@ -2,11 +2,9 @@ import { useFrame, useLoader } from "@react-three/fiber";
 import React, { useRef } from "react";
 import { TextureLoader } from "three";
 import BaseMap from "../../assets/basecolor.jpg";
-import Height from "../../assets/height.png";
 import Normal from "../../assets/normal.jpg";
-import Roughness from "../../assets/roughness.jpg";
 import Specular from "../../assets/ambientOcclusion.jpg";
-import { OrbitControls, Stars } from "@react-three/drei";
+import { Stars } from "@react-three/drei";
 
 function Sphere(props) {
 	const [colorMap, specularMap, normalMap] = useLoader(TextureLoader, [
