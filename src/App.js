@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 import Sphere from "./components/sphere";
+import { TopSection } from "./topSection";
 
 const CanvasContainer = styled.div`
 	width: 100%;
@@ -11,6 +12,7 @@ const CanvasContainer = styled.div`
 
 function App() {
 	return <CanvasContainer>
+        <TopSection/>
         <Canvas>
             <Suspense fallback={null}>
                 <Sphere />
