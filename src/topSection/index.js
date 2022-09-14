@@ -2,17 +2,15 @@ import React from "react";
 import styled from "styled-components";
 
 const TopSectionContainer = styled.div`
-  position: fixed;
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
   top: 0;
   left: 0;
-  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 13%;
   z-index: 99;
 `;
 
